@@ -1,3 +1,7 @@
+// Import components
+import Heading from './components/Heading';
+
+// Import modules
 import { useState } from 'react';
 import './App.css'
 
@@ -5,9 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='title'>
-        <h2>Create To-Do List</h2>
-      </div>
+      <Heading />
       <div className='todoAddContainer'>
         <input type='text' name='todoAdd' className='todoAdd' placeholder='Add Task' />
         <input type='submit' value="submit" />
