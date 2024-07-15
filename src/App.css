@@ -5,3 +5,15 @@
   text-align: center;
 }
 
+.title {
+}
+
+.appList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items {
+  align-items: start;
+}
